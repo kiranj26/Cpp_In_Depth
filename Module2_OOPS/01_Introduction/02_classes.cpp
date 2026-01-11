@@ -34,8 +34,9 @@ class Kiran{
             balance = bal;
         }
 };
-
+//////////////////
 // Class modifiers
+//////////////////
 // public, private, protected
 // used to restrict or provide access related problems to the classes member variables and member functions
 
@@ -70,8 +71,9 @@ class JojareFamily{
 
 };
 
-
+//////////////////
 // Class Data Members
+//////////////////
 // Data members contains all the information stored in class
 // They should be defined at the compile time
 // They can be of any data type including user defined data types
@@ -110,8 +112,9 @@ class Student{
             cout << "Age: " << age << ", Height: " << height << ", Weight: " << weight << "\n";
         }
 };
-
+//////////////////
 // Class Data Members Initialization
+//////////////////
 // We have initialised variables data members to a default in the class
 // Please note we cant define array members with default values in the class
 class Circle{
@@ -142,8 +145,9 @@ class Circle{
         }
 };
 
-
+//////////////////
 // Class Member Functions
+//////////////////
 // Functions defined inside the class are called member functions
 // They are used to access and manipulate the data members of the class
 // Mostly public member functions are used to provide interface to access private data members
@@ -217,6 +221,12 @@ int newrectangle::getBreadth(){
 // This means that multiple member functions can exist with the same name on 
 // the same scope, but must have different arguments.
 
+
+
+
+///////////////////
+// CONSTRUCTORS //
+//////////////////
 int main(void){
     // object of a class similar to a variable
     newrectangle obj1; // object of class newrectangle
