@@ -8,4 +8,5 @@ void print_double_square(double val){
 }
 int main(){
     print_double_square(5.125);
+    
 }
